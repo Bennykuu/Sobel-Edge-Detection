@@ -8,18 +8,25 @@ This project shows how to implement Sobel edge detection with Python using the P
    The Sobel filter is a mathematical operator used to calculate gradients in an image. It uses two 3×3 matrices, defined as:
 
    **Sobel filter for the x-direction (\(G_x\))**:  
-   ```plaintext
-   Gx = [ 1  0  -1 ]
-        [ 2  0  -2 ]
-        [ 1  0  -1 ]
-   ```
-   **Sobel filter for the y-direction (\(G_y\)):**
-   ```plaintext
-   Gy = [  1   2   1 ]
-        [  0   0   0 ]
-        [ -1  -2  -1 ]
-   ```
-   These matrices detect changes in brightness:   
+   $$
+   G_x =
+   \begin{bmatrix}
+   1 & 0 & -1 \\
+   2 & 0 & -2 \\
+   1 & 0 & -1
+   \end{bmatrix}
+   $$
 
-      (\(G_x\)): Detects vertical edges.   
-      (\(G_y\))​: Detects horizontal edges.   
+   **Sobel filter for the y-direction (\(G_y\))**:  
+   $$
+   G_y =
+   \begin{bmatrix}
+   1 & 2 & 1 \\
+   0 & 0 & 0 \\
+   -1 & -2 & -1
+   \end{bmatrix}
+   $$
+
+   These matrices detect changes in brightness:  
+   - \(G_x\): Detects vertical edges.  
+   - \(G_y\): Detects horizontal edges.

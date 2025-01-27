@@ -49,14 +49,32 @@ This project shows how to implement Sobel edge detection with Python using the P
    <div align="left"> 
    
 ### 2. example
-##### input image (cat1.jpg, Test2.png):
+##### input image (Tiger.png, Test2.png):
 <p align="left">
-  <img src="example_Images/Tiger.png" width="500" />
+  <img src="example_Images/Tiger.png" width="400" />
   <img src="example_Images/Test2.png" width="450" />
 </p>
 
-##### Output: The generated ASCII art (Cat ASCII Faktor 4, Test ASCII Faktor 8):
+##### Output: After applying the Sobel edge detection algorithm (Tiger minimum threshold 30, Test2 minimum threshold 30):
 <p align="left">
-  <img src="example_Images/Tiger_sobel.PNG" width="500" />
-  <img src="example_Images/Test2_ascii_factor8.PNG" width="450" />
+  <img src="example_Images/Tiger_sobel_min_threshold30.PNG" width="400" />
+  <img src="example_Images/Test2_sobel_min_threshold30.PNG" width="450" />
 </p>
+
+### 3. How to Use
+1. Clone the repository
+2. Install dependencies: Ensure that Pillow and numpy is installed with:    pip install pillow numpy
+3. Place your input image: Put the image you want to use into the same directory as your script, or note its full path if it is elsewhere.
+4. Run the script: Navigate to the directory where sobel_edge_detection.py is located and run the script:   python sobel_edge_detection.py
+5. Enter the name of your image: When prompted, enter the filename of your image (or the full path if it’s not in the same folder).
+6. View the output: The script will display the processed edge-detected image
+
+### 4. Improvement
+Implement non-maximum suppression to thin edges for cleaner results.
+The execution time is still too long, optimization is needed to improve performance.
+
+
+### 5. Reference
+Tiger.jpg Image from [https://media.istockphoto.com/id/468583653/de/foto/katze-portr%C3%A4t.jpg?s=612x612&w=0&k=20&c=ZeYyvRJXqEvlcbQ1PtAyH5I-Lam2kV-ElTueV3_q0Pk=](https://transforms.stlzoo.org/production/animals/amur-tiger-01-01.jpg?w=1200&h=1200&auto=compress%2Cformat&fit=crop&dm=1658935145&s=95d03aceddd44dc8271beed46eae30bc)   
+Test2.png Image from https://www.youtube.com/watch?v=rCPrXlREAdo   
+Lethal.jpg Image from https://x.com/PhilipIONO/status/1727828537627783275   

@@ -12,14 +12,14 @@ This project shows how to implement Sobel edge detection with Python using the P
 
    **Sobel filter for the x-direction ($G_x$)**:
    
-   $$
-G_x =
-\begin{bmatrix}
-1 & 0 & -1 \\
-2 & 0 & -2 \\
-1 & 0 & -1
-\end{bmatrix}
-$$
+   ```math
+   G_x =
+   \begin{bmatrix}
+   1 & 0 & -1 \\
+   2 & 0 & -2 \\
+   1 & 0 & -1
+   \end{bmatrix}
+   ```
 
    **Sobel filter for the y-direction ($G_y$)**:
    

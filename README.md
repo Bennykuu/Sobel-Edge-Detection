@@ -9,7 +9,8 @@ This project shows how to implement Sobel edge detection with Python using the P
 
    **Sobel filter for the x-direction (\(G_x\))**:  
    ```math
-   \begin{bmatrix} G_x =
+   G_x =
+   \begin{bmatrix}
    1 & 0 & -1 \\
    2 & 0 & -2 \\
    1 & 0 & -1
@@ -17,11 +18,14 @@ This project shows how to implement Sobel edge detection with Python using the P
    ```
 
    **Sobel filter for the y-direction (\(G_y\))**:  
-   <table>
-      <tr><td>  1 </td><td>  2 </td><td>  1 </td></tr>
-      <tr><td>  0 </td><td>  0 </td><td>  0 </td></tr>
-      <tr><td> -1 </td><td> -2 </td><td> -1 </td></tr>
-   </table>
+   ```math
+   G_x =
+   \begin{bmatrix}
+   1 & 2 & 1 \\
+   0 & 0 & 0 \\
+   -1 & -2 & -1
+   \end{bmatrix}
+   ```
 
    These matrices detect changes in brightness:  
    - \(G_x\): Detects vertical edges.  

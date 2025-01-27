@@ -9,7 +9,7 @@ This project shows how to implement Sobel edge detection with Python using the P
 
    **Sobel filter for the x-direction (\(G_x\))**:  
    ```math
-   \begin{bmatrix}
+   \begin{bmatrix} G_x =
    1 & 0 & -1 \\
    2 & 0 & -2 \\
    1 & 0 & -1

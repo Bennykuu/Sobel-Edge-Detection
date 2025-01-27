@@ -70,8 +70,8 @@ This project shows how to implement Sobel edge detection with Python using the P
 6. View the output: The script will display the processed edge-detected image
 
 ### 4. Improvement
-Implement non-maximum suppression to thin edges for cleaner results.
-The execution time is still too long, optimization is needed to improve performance.
+Implement non-maximum suppression to thin edges for cleaner results.   
+The execution time is still too long, optimization is needed to improve performance.   
 
 
 ### 5. Reference

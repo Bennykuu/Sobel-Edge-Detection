@@ -78,3 +78,4 @@ The execution time is still too long, optimization is needed to improve performa
 Tiger.jpg Image from [https://media.istockphoto.com/id/468583653/de/foto/katze-portr%C3%A4t.jpg?s=612x612&w=0&k=20&c=ZeYyvRJXqEvlcbQ1PtAyH5I-Lam2kV-ElTueV3_q0Pk=](https://transforms.stlzoo.org/production/animals/amur-tiger-01-01.jpg?w=1200&h=1200&auto=compress%2Cformat&fit=crop&dm=1658935145&s=95d03aceddd44dc8271beed46eae30bc)   
 Test2.png Image from https://www.youtube.com/watch?v=rCPrXlREAdo   
 Lethal.jpg Image from https://x.com/PhilipIONO/status/1727828537627783275   
+Information for Sobel operator https://en.wikipedia.org/wiki/Sobel_operator

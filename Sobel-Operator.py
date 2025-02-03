@@ -1,3 +1,4 @@
+import sys
 from PIL import Image
 import numpy as np
 
@@ -54,18 +55,20 @@ class SobelEdgeDetection:
         gradient[gradient < self.min_threshold] = 30
         gradient[gradient > self.max_threshold] = 255
 
-        edge_image = Image.fromarray(gradient)
-        return edge_image
+        return gradient
 
     def show_edge_image(self):
         edge_image = self.apply_sobel_filter()
-        edge_image.show()
+        edge_image_pil = Image.fromarray(edge_image)
+        edge_image_pil.show()
+        sys.exit()
 
     def save_edge_image(self, output_path="sobel_edge_output.jpg"):
         edge_image = self.apply_sobel_filter()
-        edge_image.save(output_path)
+        edge_image_pil = Image.fromarray(edge_image)
+        edge_image_pil.save(output_path)
 
 picture = input("Which image do you want to use: ")
 edge_detector = SobelEdgeDetection(picture, min_threshold=30, max_threshold=200)
-edge_detector.show_edge_image()  
+edge_detector.show_edge_image()  # Anzeige der Kantenerkennung
 edge_detector.save_edge_image("sobel_edge_output.jpg")

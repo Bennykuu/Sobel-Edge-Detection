@@ -63,9 +63,9 @@ This project shows how to implement Sobel edge detection with Python using the P
 
 ### 3. How to Use
 1. Clone the repository
-2. Install dependencies: Ensure that Pillow and numpy is installed with:    pip install pillow numpy
+2. Install dependencies: Ensure that Pillow and numpy is installed with:    `pip install pillow numpy`
 3. Place your input image: Put the image you want to use into the same directory as your script, or note its full path if it is elsewhere.
-4. Run the script: Navigate to the directory where sobel_edge_detection.py is located and run the script:   python sobel_edge_detection.py
+4. Run the script: Navigate to the directory where `sobel_edge_detection.py` is located and run the script:   `python sobel_edge_detection.py`
 5. Enter the name of your image: When prompted, enter the filename of your image (or the full path if it’s not in the same folder).
 6. View the output: The script will display the processed edge-detected image
 

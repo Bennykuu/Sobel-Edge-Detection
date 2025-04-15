@@ -42,7 +42,7 @@ This project shows how to implement Sobel edge detection with Python using the P
    <div align="left">   
 
 4. **Thresholding**:   
-   The gradient magnitude is thresholded to keep only strong edges. Pixels with gradient values less than a minimum threshold are set to 0, and those greater than a maximum threshold are set to 255.
+   The gradient magnitude is thresholded to keep only strong edges, with minimum threshold and a maximum.
 
    <div align="center">
    $$n = \{ 0 \text{ if } g < \text{min threshold}, \, 255 \text{ if } g > \text{max threshold} \} $$

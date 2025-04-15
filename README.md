@@ -4,7 +4,7 @@ This project shows how to implement Sobel edge detection with Python using the P
 
 ### 1. How It Works
 
-2. **Image Preprocessingr**:
+1. **Image Preprocessingr**:
    The input image is Converted to grayscale. To avoid boundary issues when applying filters, the border is padded by 1 pixel (using edge replication).
 
 2. **Sobel Filter**:  
